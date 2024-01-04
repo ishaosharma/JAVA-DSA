@@ -1,0 +1,79 @@
+import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        /* 
+        System.out.println("****");
+        System.out.println("***");
+        System.out.println("**");
+        System.out.println("*");
+
+        int a = 10;
+        int b = 5;
+        int c = 15;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+
+        a = b;
+        System.out.println(a);
+
+        String name = "Tony Stark";
+        System.out.println(name);
+        */
+        //hello world
+        /* 
+        int a = 5;
+        int b = 10;
+        int sum = a+b;
+        System.out.println(sum);
+        */
+
+        //Scanner sc = new Scanner(System.in);
+       // String input = sc.next();
+        //System.out.println(input);
+
+        //String name = sc.nextLine();
+        //System.out.println(name);
+
+       // int number = sc.nextInt();
+       // System.out.println(number);
+
+       //float f = sc.nextFloat();
+       //System.out.println(f);
+
+       //boolean b = sc.nextBoolean();
+       //System.out.println(b);
+
+       //short s = sc.nextShort();
+       //System.out.println(s);
+
+       //long l = sc.nextLong();
+       //System.out.println(l);
+        /* 
+       Scanner sc = new Scanner(System.in);
+       int a = sc.nextInt();
+       int b = sc.nextInt();
+       int sum = a +b;
+       System.out.println(sum);
+        
+       Scanner sc = new Scanner(System.in);
+       int a = sc.nextInt();
+       int b = sc.nextInt();
+       int product = a*b;
+       System.out.println(product);
+        
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter r = ");
+        int r = sc.nextInt();
+        double Area = 3.14 * r * r;
+        System.out.println(Area);
+        */
+       // int $ = 24;
+       // System.out.println($);
+
+        byte b = 5;
+        b = (byte)(b*2);
+        System.out.println(b);
+    }
+}
