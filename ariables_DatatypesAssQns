@@ -1,0 +1,47 @@
+// Chapter 2:VARIABLES & DATA TYPES QUESTIONS
+import java.util.*;
+public class Variables_DatatypesAssQns{
+    public static void main(String args[]){
+
+    //Question1:In a program,input3numbers:A,BandC.You have to output the average of these 3 numbers.
+    //(Hint : Average of N numbers is sum of those numbers divided by N)
+/* 
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int avg = (A+B+C)/3;
+        System.out.println("Average is = " + avg);
+*/
+
+    //Question2:Inaprogram,input the side of a square.You have to output the area of the square.
+    //(Hint : area of a square is (side x side))
+/*        
+    Scanner sc = new Scanner(System.in);
+    int side = sc.nextInt();
+    int Area = side * side;
+    System.out.println("Area is = "+Area);
+*/
+
+//Question3:Enter cost of 3items from the user(using float datatype)-a pencil,a pen and an eraser. 
+//You have to output the total cost of the items back to the user as their bill.
+//(Add on : You can also try adding 18% gst tax to the items in the bill as an advanced problem)
+
+        Scanner sc = new Scanner(System.in);
+        float pencil = sc.nextFloat();
+        float pen = sc.nextFloat();
+        float eraser = sc.nextFloat();
+
+        float total= pencil + pen + eraser;
+        System.out.println("Bill is = " + total);
+
+        // add on 18% gst TAX
+
+        float newTotal = total + (0.18f * total);
+        System.out.println("Bill with 18% tax = " + newTotal);
+
+
+
+
+    }
+}
