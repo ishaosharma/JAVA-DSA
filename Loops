@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class LoopsQNS { 
+    public static void main(String[] args){
+     //1.    // for (int i = 0; i<=5;i++){
+        //     System.out.println("HELLO");
+        //     i+=2;
+        // }
+
+
+    //2    Write a program that reads a set of integers,and then prints the sum of the even and odd integers
+
+    // Scanner sc = new Scanner(System.in);
+    //     int choice; 
+    //     int evenSum = 0;
+    //     int oddSum = 0;
+    // do{
+    //     System.out.println("Enter n : " );
+    //     int n = sc.nextInt();
+    //     if(n % 2 == 0){
+    //         evenSum +=n;
+    //     }else{
+    //         oddSum +=n;
+    //     }
+    //     System.out.println("U want to play more press 1 else 0");
+    //     choice = sc.nextInt();
+    // }while(choice == 1);
+
+    // System.out.println("Even sum is: " + evenSum);
+    // System.out.println("Odd sum is: " + oddSum);
+
+    //3 Write a program to find the factorialof any number entered by the user.(Hint:factorialofanumbern=n*(n-1)*(n-2)*(n-3)*......*1andexistsforpositivenumbersonly. 
+    //We write factorial as n!So, factorial of 0! = 1, 1! = 1, 2! = 2, 3! = 6, 4! = 24 and so on
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter n : ");
+        // int n = sc.nextInt();
+
+        // int fact = 1;
+        // for(int i = 1; i<=n;i++){
+        //     fact *=i;
+        //     }
+        //     System.out.println("Factorial is : "+ fact);
+         
+    //4 Write a program to print the multiplicationtable of a numberN,entered by the user
+
+            Scanner sc = new Scanner (System.in);
+            System.out.println("Enter n : ");
+            int n = sc.nextInt();
+
+            for(int i = 1; i<=10;i++){
+                System.out.println( n+"*"+ i + "="+ n*i);
+            }
+            
+    
+    }
+}
