@@ -1,0 +1,45 @@
+import java.util.*;
+public class Arrays {
+
+    // public static void main(String args[]){
+    //     int marks[] = new int[100];
+    //     Scanner sc = new Scanner(System.in);
+
+    //     marks[0] = sc.nextInt();
+    //     marks[1] = sc.nextInt();
+    //     marks[2] = sc.nextInt();
+
+    //     System.out.println("Phys = " + marks[0]);
+    //     System.out.println("chem = " + marks[1]);
+    //     System.out.println("Maths = " +marks[2]);
+
+    //     int percentage = (marks[0] + marks[1] + marks[2])/3;
+    //     System.out.println("Percentage = " + percentage+ "%");
+
+    //     System.out.println("Length = " +marks.length);
+    // }
+
+    // marks[2] = 100;
+    // System.out.println("Maths = "+ marks[2]);
+
+    // marks[1] = marks[1] + 1;
+    // System.out.println(marks[1]);
+
+        public static void update(int marks[], int nonChangeable){
+            nonChangeable = 10;
+            for(int i = 0; i<marks.length;i++){  //HAR INDEX PE JAKE VALUE UPDATE KAREGA MARKS KI
+                marks[i] = marks[i] + 1;
+            }
+        }
+        public static void main(String args[]){
+            int marks[] = { 88, 98, 97 };
+            int nonChangeable = 5;     //pass by value hota h yeh
+            update(marks,nonChangeable);
+            System.out.println(nonChangeable);
+
+            for(int i = 0; i<marks.length;i++){
+                System.out.print(marks[i] + " ");
+            }
+            System.out.println();
+    }
+}   
